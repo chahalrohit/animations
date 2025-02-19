@@ -11,5 +11,6 @@ LogBox.ignoreAllLogs();
 import Simple from './src/screens/Simple';
 import Animatedlist from './src/screens/Animatedlist';
 import VerticalRuler from './src/screens/VerticalRuler';
+import FakeImageList from './src/screens/FakeImageList';
 
-AppRegistry.registerComponent(appName, () => VerticalRuler);
+AppRegistry.registerComponent(appName, () => FakeImageList);
